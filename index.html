@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/ac59498355.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="icon">
+            <img src="photos/izzi.png" alt="" />
+          </div>
+
+          <div class="center">
+            <p>My Orders</p>
+            <p>Help</p>
+            <p>Services</p>
+          </div>
+
+          <div class="right">
+            <div class="urgent"><i class="fa-solid fa-bolt"></i>URGENT</div>
+            <div class="profile">
+              <img src="photos/Ovalphoto.png" alt="pp" />
+              <p>Elon Musk</p>
+            </div>
+            <div class="country">
+              <img src="photos/country.png" alt="country" />
+            </div>
+          </div>
+        </nav>
+      </header>
+      <img src="photos/background.png" alt="" class="background_image" />
+      <p class="all_pros">All Pros</p>
+    </div>
+
+    <main>
+      <div class="sidebar">
+        <div class="filters">
+          <form>
+            <p class="filters_txt">Filters</p>
+
+            <input
+              type="checkbox"
+              name="top_pros"
+              id="top_pros"
+              class="custom-checkbox"
+            />
+            <label for="top_pros">Top Pros</label><br /><br />
+            <input
+              type="checkbox"
+              name="new_pros"
+              id="new_pros"
+              class="custom-checkbox"
+            />
+            <label for="">New Pros</label><br /><br />
+            <input
+              type="checkbox"
+              name="supervisors"
+              id="supervisors"
+              class="custom-checkbox"
+            />
+            <label for="supervisors">Supervisors</label><br /><br />
+            <input
+              type="checkbox"
+              name="pros"
+              id="pros"
+              class="custom-checkbox"
+            />
+            <label for="pros">Pros</label><br />
+          </form>
+        </div>
+
+        <div class="sorting">
+          <form>
+            <p class="sorting_txt">Sorting</p>
+
+            <label for="rating">By Rating</label>
+            <select name="rating" id="rating">
+              <option value="Choose One" selected>Choose One</option>
+              <option value="descending" >Descending</option>
+              <option value="ascending" >Ascending</option></select
+            ><br />
+
+            <label for="task_count">By Task Count</label>
+            <select name="task_count" id="task_count">
+              <option value="Choose One" selected>Choose One</option>
+              <option value="descending">Descending</option>
+              <option value="ascending" >Ascending</option>
+            </select>
+          </form>
+        </div>
+      </div>
+
+      <div class="main"></div>
+    </main>
+
+    <footer>
+      <div class="first_section">
+        <img src="photos/footer.png" alt="" />
+      </div>
+      <div class="second_section">
+        <div class="izzi">
+          <div class="icon"><img src="photos/izzi.png" alt="" /></div>
+          <div class="txt">
+            izzi is the major platform in Azerbaijan to request help from
+            taskers
+          </div>
+        </div>
+        <div class="footer_info">
+          <p>izzi Ltd.</p>
+          <p>Location address</p>
+          <p>info@izzi.com</p>
+          <p>+994 (50) XX XXXX</p>
+          <p>NR21465161</p>
+        </div>
+        <div class="footer_info">
+          <p>Book a service</p>
+          <p>Browse Services</p>
+          <p>Find Taskers</p>
+          <p>How Does It Work?</p>
+        </div>
+        <div class="footer_info">
+          <p>Extra links</p>
+          <p>About us</p>
+          <p>FAQ</p>
+          <p>Contact us</p>
+          <p>Become a Task</p>
+        </div>
+      </div>
+
+      <div class="third_section">
+        <div class="icons">
+          <img src="photos/facebook.png" alt="" />
+          <img src="photos/twitter.png" alt="" />
+          <img src="photos/instagram.png" alt="" />
+          <img src="photos/ytube.png" alt="" />
+        </div>
+        <div class="terms">
+          <p>izzi Ltd. 2021</p>
+          <p>Privacy Policy</p>
+          <p>Terms and Conditions</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
